@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .container-plugin-categories-as-folders .breadcrumb li{
+    margin-left: 6px;
+ }
+
+ .container-plugin-categories-as-folders .breadcrumb li::before {
+    display: inline-block;
+    content: '';
+    background: #444;
+    width: 3px;
+    height: 4px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+ @media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
+#accordion .card-header button{
+    color: #404040;
+    text-align: left;
+}
+
+#accordion .card-header button .dashicons-portfolio{
+    font-size: 36px;
+
+    margin-right: 16px;
+    
+    line-height: 38px;
+ }
+
+ figure.row{
+     text-transform: uppercase;
+ }
